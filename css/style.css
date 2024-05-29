@@ -16,7 +16,7 @@ main {
 .container {
     width: 1900px;
     margin: 0 auto;
-    padding: 70px 70px 10px 70px;
+    padding: 50px 70px 10px 70px;
     position:relative
 }
 
@@ -30,9 +30,11 @@ main {
 }
 
 .content {
-    border: 1px solid white;
-    height: 140px;
     margin: 5px;
+}
+
+img {
+    width: 100%;
 }
 
 .top-right-utility {
