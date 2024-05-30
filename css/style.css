@@ -8,20 +8,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* main section  */
 main {
     background-color: black;
     height: 90vh;
     width: 100vw;
-}
-
-footer {
-    background-color: #222222;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    /* padding: 20px 0px; */
-    z-index: 1;
 }
 
 .container {
@@ -31,9 +22,6 @@ footer {
     position:relative
 }
 
-.container-full {
-    width: 100vw;
-}
 
 .row {
     display: flex;
@@ -85,12 +73,18 @@ footer {
     color: white;
 } 
 
-.bg-gray {
-    background-color: #4a4a4a;
+/* footer section  */
+footer {
+    background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
 }
 
-.bg-black {
-    background-color: #222222;
+.container-full {
+    width: 100vw;
 }
 
 .col-30 {
@@ -109,6 +103,12 @@ footer {
     color: red;
     justify-content: center;
 }
+
+.fa-share-from-square {
+    color: green;
+}
+
+/* icons and utility section  */
 
 .icons {
     font-size: 35px;
@@ -141,6 +141,15 @@ span {
     align-items: center;
 }
 
+/* text and bg colors  */
+
 .text-white {
     color: white;
+}
+.bg-gray {
+    background-color: #4a4a4a;
+}
+
+.bg-black {
+    background-color: #222222;
 }
